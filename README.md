@@ -4,7 +4,7 @@ Hypervolume-Based Cooperative Coevolution with Two Reference Points for Multi-Ob
 
 **Lie Meng Pang, Hisao Ishibuchi, Linjun He, Ke Shang, and Longcan Chen, "Hypervolume-based Cooperative Coevolution with Two Reference Points for Multi-Objective Optimization", under review.**<br>
 
-All the experiments in this paper are performed on the PlatEMO v2.9.0 platform. <br>
+All the experiments in this paper were performed on the PlatEMO v2.9.0 platform. <br>
 A PC equipped with AMD Ryzen Threadripper 3990X 64-Core Processor@2.90 GHz, 256GB RAM and 
 Microsoft Window 10 Pro was used for the experiments. <br>
 
