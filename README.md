@@ -1,8 +1,8 @@
 # HVCTR
 Hypervolume-Based Cooperative Coevolution with Two Reference Points for Multi-Objective Optimization <br>
-**This document provides information on the source code and data associated with the following paper:<br>
+**This document provides information on the source code and data associated with the following paper:**<br>
 
-Lie Meng Pang, Hisao Ishibuchi, Linjun He, Ke Shang, and Longcan Chen, "Hypervolume-based Cooperative Coevolution with Two Reference Points for Multi-Objective Optimization", under review.** <br>
+**Lie Meng Pang, Hisao Ishibuchi, Linjun He, Ke Shang, and Longcan Chen, "Hypervolume-based Cooperative Coevolution with Two Reference Points for Multi-Objective Optimization", under review.**<br>
 
 All the experiments in this paper are performed on the PlatEMO v2.9.0 platform. <br>
 In the repository, you will find two folders. <br>
