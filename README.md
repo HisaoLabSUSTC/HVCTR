@@ -22,7 +22,7 @@ The metric "HV_R100" correponds to the HV calculation using reference point (100
 The metric "HV_Ropt" correponds to the HV calculation using reference point (r*, ..., r*) in the normalized space.<br> 
 
 
-In Section II.B, we used the SMS-EMOA algorithm with nine different specifications of reference points on the three-objective DTLZ1, DTLZ2, Minus-DTLZ1, and Minus-DTLZ2 problems.  <br>
+In **Section II.B**, we used the SMS-EMOA algorithm with nine different specifications of reference points on the three-objective DTLZ1, DTLZ2, Minus-DTLZ1, and Minus-DTLZ2 problems.  <br>
 
 The name for each of the nine SMS-EMOA variants is indicated in parentheses ( ), as follows: <br>
 1. SMS-EMOA with r = znad x 1 in the normalized objective space (SMSEMOA_NR1T)<br>
@@ -39,7 +39,7 @@ To retrieve the experimental result, please use the following experimental setti
 HVCTR-Experiments/Section II-B and IV-A/Data/Setting_SectionII_B.mat<br>
 
 
-In Section IV.A, we compared the proposed HVCTR algorithm and the SMS-EMOA with different specifications of reference points on the three-objective DTLZ1, DTLZ2, Minus-DTLZ1, and Minus-DTLZ2 problems. <br>
+In **Section IV.A**, we compared the proposed HVCTR algorithm and the SMS-EMOA with different specifications of reference points on the three-objective DTLZ1, DTLZ2, Minus-DTLZ1, and Minus-DTLZ2 problems. <br>
 
 The names for each of the compared algorithms is indicated in parentheses ( ), as follows: <br>
 1. HVCTR (HVCTR)<br>
@@ -78,7 +78,7 @@ The metric "NHVR5MOKP" correponds to the HV calculation using reference point (5
 The metric "NHVR100MOKP" correponds to the HV calculation using reference point (100, ..., 100) in the normalized space. <br>
 The metric "NHVROptMOKP" correponds to the HV calculation using reference point (r*, ..., r*) in the normalized space. <br>
 
-In Section IV.B, we compared the proposed HVCTR algorithm with six state-of-the-art EMO algorithms on the three-objective DTLZ1-4 and Minus-DTZL1-4 test problems. <br>
+In **Section IV.B**, we compared the proposed HVCTR algorithm with six state-of-the-art EMO algorithms on the three-objective DTLZ1-4 and Minus-DTZL1-4 test problems. <br>
 They are SMS-EMOA, HypE, R2HCA-EMOA, SPEA2+SDE, NSGA-II/SDR, and MaOEA/IGD. <br>
 For SMS-EMOA and HypE, in addition to their original implementations (i.e., their default reference point specifications), 
 in our experiments, we also examine the performance of SMS-EMOA and HypE with the reference point r = (r*, r*, ..., r*).<br> 
@@ -98,7 +98,7 @@ The names for each of the compared algorithms is indicated in parentheses ( ), a
 To retrieve the experimental result, please use the following experimental setting:<br>
 HVCTR-Experiments/Section IV-B-D/Data/Setting_SectionIV_B.mat<br>
 
-In Section IV.C, we examine the performance of the algorithms on a three-objective 500-item knapsack problem. <br>
+In **Section IV.C**, we examine the performance of the algorithms on a three-objective 500-item knapsack problem. <br>
 In addition to the previous nine algorithms, we also examine the performance of MOEA/D with the weighted sum function (MOEA/D-WS). <br>
 Thus, in this section, we have a total of 10 algorithms. <br>
 In this experiment, the one-point crossover with probability 1 and the bit-flip mutation with probability 1/500 are used. <br>
@@ -207,7 +207,7 @@ The names for each of the compared algorithms is indicated in parentheses ( ), a
 To retrieve the experimental result, please use the following experimental setting:<br>
 HVCTR-Experiments/Section IV-B-D/Data/Setting_SectionIV_C_Setting5.mat<br>
 
-In Section IV.D, the performance of HVCTR is examined on a real-world problem suite (i.e., RE problems). <br>
+In **Section IV.D**, the performance of HVCTR is examined on a real-world problem suite (i.e., RE problems). <br>
 
 The names for each of the compared algorithms is indicated in parentheses ( ), as follows: <br>
 1. HVCTR  (HVCTR)<br>
