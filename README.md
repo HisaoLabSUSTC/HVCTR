@@ -1,39 +1,39 @@
 # HVCTR
-Hypervolume-Based Cooperative Coevolution with Two Reference Points for Multi-Objective Optimization 
-This document provides information on the source code and data associated with the following paper:
+Hypervolume-Based Cooperative Coevolution with Two Reference Points for Multi-Objective Optimization <br>
+This document provides information on the source code and data associated with the following paper:<br>
 
-Lie Meng Pang, Hisao Ishibuchi, Linjun He, Ke Shang, and Longcan Chen, "Hypervolume-based Cooperative Coevolution with Two Reference Points for Multi-Objective Optimization", under review. 
+Lie Meng Pang, Hisao Ishibuchi, Linjun He, Ke Shang, and Longcan Chen, "Hypervolume-based Cooperative Coevolution with Two Reference Points for Multi-Objective Optimization", under review. <br>
 
-All the experiments in this paper are performed on the PlatEMO v2.9.0 platform. 
-In the repository, you will find two folders. 
-The first folder "Section II-B and IV-A" corresponds to the source code and experimental settings used in Section II-B and IV in the paper. 
-The second folder "Section IV-B-D" corresponds to the source code and experimental settings used in Section IV-B to Section IV-D in the paper. 
-For each folder, the experimental settings and raw data are available in the "Data" subfolder. 
-The algorithms are available in the "Algorithm" subfolder. 
+All the experiments in this paper are performed on the PlatEMO v2.9.0 platform. <br>
+In the repository, you will find two folders. <br>
+The first folder "Section II-B and IV-A" corresponds to the source code and experimental settings used in Section II-B and IV in the paper. <br>
+The second folder "Section IV-B-D" corresponds to the source code and experimental settings used in Section IV-B to Section IV-D in the paper.<br> 
+For each folder, the experimental settings and raw data are available in the "Data" subfolder. <br>
+The algorithms are available in the "Algorithm" subfolder. <br>
 
-**"Section II-B and IV-A" Folder** 
-The metric "HV_R1" correponds to the HV calculation using reference point (1, ..., 1) in the normalized space. 
-The metric "HV_R11" correponds to the HV calculation using reference point (1.1, ..., 1.1) in the normalized space. 
-The metric "HV_R12" correponds to the HV calculation using reference point (1.2, ..., 1.2) in the normalized space. 
-The metric "HV_R15" correponds to the HV calculation using reference point (1.5, ..., 1.5) in the normalized space. 
-The metric "HV_R2" correponds to the HV calculation using reference point (2, ..., 2) in the normalized space. 
-The metric "HV_R5" correponds to the HV calculation using reference point (5, ..., 5) in the normalized space. 
-The metric "HV_R100" correponds to the HV calculation using reference point (100, ..., 100) in the normalized space. 
-The metric "HV_Ropt" correponds to the HV calculation using reference point (r*, ..., r*) in the normalized space. 
+**"Section II-B and IV-A" Folder**<br>
+The metric "HV_R1" correponds to the HV calculation using reference point (1, ..., 1) in the normalized space. <br>
+The metric "HV_R11" correponds to the HV calculation using reference point (1.1, ..., 1.1) in the normalized space. <br>
+The metric "HV_R12" correponds to the HV calculation using reference point (1.2, ..., 1.2) in the normalized space. <br>
+The metric "HV_R15" correponds to the HV calculation using reference point (1.5, ..., 1.5) in the normalized space. <br>
+The metric "HV_R2" correponds to the HV calculation using reference point (2, ..., 2) in the normalized space.<br> 
+The metric "HV_R5" correponds to the HV calculation using reference point (5, ..., 5) in the normalized space. <br>
+The metric "HV_R100" correponds to the HV calculation using reference point (100, ..., 100) in the normalized space. <br>
+The metric "HV_Ropt" correponds to the HV calculation using reference point (r*, ..., r*) in the normalized space.<br> 
 
 
-In Section II.B, we used the SMS-EMOA algorithm with nine different specifications of reference points on the three-objective DTLZ1, DTLZ2, Minus-DTLZ1, and Minus-DTLZ2 problems.  
+In Section II.B, we used the SMS-EMOA algorithm with nine different specifications of reference points on the three-objective DTLZ1, DTLZ2, Minus-DTLZ1, and Minus-DTLZ2 problems.  <br>
 
-The name for each of the nine SMS-EMOA variants is indicated in parentheses ( ), as follows: 
-1. SMS-EMOA with r = znad x 1 in the normalized objective space (SMSEMOA_NR1T)
-2. SMS-EMOA with r = znad x 1.1 in the normalized objective space (SMSEMOA_NR11T)
-3. SMS-EMOA with r = znad x 2 in the normalized objective space (SMSEMOA_NR2T)
-4. SMS-EMOA with r = znad x 5 in the normalized objective space (SMSEMOA_NR5T)
-5. SMS-EMOA with r = znad x 100 in the normalized objective space (SMSEMOA_NR100T)
-6. SMS-EMOA with r = znad x r* in the normalized objective space (SMSEMOA_NROPT)
-7. SMS-EMOA with r = znad x 1.1 in the original objective space (SMSEMOA_OriT11)
-8. SMS-EMOA with r = znad + 1 in the original objective space (SMSEMOA_Ori)
-9. SMS-EMOA with r = znad + 100 in the original objective space (SMSEMOA_OriP100)
+The name for each of the nine SMS-EMOA variants is indicated in parentheses ( ), as follows: <br>
+1. SMS-EMOA with r = znad x 1 in the normalized objective space (SMSEMOA_NR1T)<br>
+2. SMS-EMOA with r = znad x 1.1 in the normalized objective space (SMSEMOA_NR11T)<br>
+3. SMS-EMOA with r = znad x 2 in the normalized objective space (SMSEMOA_NR2T)<br>
+4. SMS-EMOA with r = znad x 5 in the normalized objective space (SMSEMOA_NR5T)<br>
+5. SMS-EMOA with r = znad x 100 in the normalized objective space (SMSEMOA_NR100T)<br>
+6. SMS-EMOA with r = znad x r* in the normalized objective space (SMSEMOA_NROPT)<br>
+7. SMS-EMOA with r = znad x 1.1 in the original objective space (SMSEMOA_OriT11)<br>
+8. SMS-EMOA with r = znad + 1 in the original objective space (SMSEMOA_Ori)<br>
+9. SMS-EMOA with r = znad + 100 in the original objective space (SMSEMOA_OriP100)<br>
 
 To retrieve the experimental result, please use the following experimental setting:
 HVCTR-Experiments/Section II-B and IV-A/Data/Setting_SectionII_B.mat
