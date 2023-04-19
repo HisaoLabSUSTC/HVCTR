@@ -8,9 +8,9 @@ All the experiments in this paper were performed on the PlatEMO v2.9.0 platform.
 A PC equipped with AMD Ryzen Threadripper 3990X 64-Core Processor@2.90 GHz, 256GB RAM and 
 Microsoft Window 10 Pro was used for the experiments. <br>
 
-In the repository, you will find two folders. <br>
-The first folder "Section II-B and IV-A" corresponds to the source code and experimental settings used in Section II-B and IV in the paper. <br>
-The second folder "Section IV-B-D" corresponds to the source code and experimental settings used in Section IV-B to Section IV-D in the paper.<br> 
+**In the repository, you will find two folders.** <br>
+The first folder **"Section II-B and IV-A"** corresponds to the source code and experimental settings used in Section II-B and IV in the paper. <br>
+The second folder **"Section IV-B-D"** corresponds to the source code and experimental settings used in Section IV-B to Section IV-D in the paper.<br> 
 For each folder, the experimental settings and raw data are available in the "Data" subfolder. <br>
 The algorithms are available in the "Algorithm" subfolder. <br>
 
