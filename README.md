@@ -239,13 +239,14 @@ We have conducted several ablation studies, as follows: <br>
 whereas the offspring o2 is generated from parents randomly chosen from the subpopulation P2. (HVCTR_Ablation3)<br>
 - HVCTR-Ablation4: In this version, the offspring o1 is generated from parents randomly chosen from the entire population P, 
 whereas the offspring o2 is generated from parents randomly chosen from the subpopulation P2. (HVCTR_Ablation4) <br>
-- HVCTR without the proposed environmental selection: In this version, the subpopulations P1 and P2 were evolved separately using r_large and r_small, respectively, 
+- Variant with no information exchange: In this variant, the two subpopulations P1 and P2 were evolved separately using r_large and r_small, respectively. The subpopulations were combined at the end of the evolutionary process.They do not share the same estimated nadir and ideal points. (HVCTR_Ablation_nointeraction) <br>
+- Variant with no cooperative coevolution: In this variant, the subpopulations P1 and P2 were evolved separately using r_large and r_small, respectively, 
 and were combined at the end of the evolutionary process. (HVCTR_Ablation) <br>
 
 To retrieve the experimental result, please use the following experimental settings:<br>
 HVCTR-Experiments/Section II-B and IV-A/Data/Setting_Ablation1.mat<br>
 HVCTR-Experiments/Section II-B and IV-A/Data/Setting_Ablation234.mat<br>
-HVCTR-Experiments/Section II-B and IV-A/Data/Setting_Ablation_WithouttheProposedEnvSel.mat<br>
+HVCTR-Experiments/Section II-B and IV-A/Data/Setting_Ablation_WithoutInteraction.mat<br>
 
 
 If you have any questions related to this document, please feel free to contact Lie Meng Pang (email: panglm@sustech.edu.cn).<br>
